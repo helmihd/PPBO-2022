@@ -4,10 +4,6 @@ public class PPBO_02_Latihan3 {
     String nim, nama, alamat;
     char jenisKelamin;
 
-    /*
-        Tulis kode kalian di sini
-     */
-
     PPBO_02_Latihan3(String nim, String nama, char jenisKelamin, String alamat) {
         this.nim = nim;
         this.nama = nama;
