@@ -1,5 +1,7 @@
 // Nama : Helmi Hananto Desandra
 // NIM  : M0521029
+import java.text.DecimalFormat;
+
 public class PPBO_02_Latihan1 {
     public static void main(String[] args) {
         int a = 10;
@@ -11,7 +13,8 @@ public class PPBO_02_Latihan1 {
 
         double d = KonversiA + b + KonversiC;
 
-        System.out.println("Hasil a + b + c = " +d);
+        DecimalFormat df = new DecimalFormat("#.#");
+        System.out.println("Hasil a + b + c = " +df.format(d));
     }
 }
 
